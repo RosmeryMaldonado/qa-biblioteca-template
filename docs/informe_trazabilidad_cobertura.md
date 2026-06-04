@@ -1,24 +1,30 @@
 # Informe de Trazabilidad, Gestión de Defectos y Cobertura
-## Sistema Biblioteca Universitaria Inteligente (BUI)
 
 ## 1. Introducción
 
-## 2. Artefactos revisados
+El presente informe tiene como finalidad analizar la trazabilidad de requisitos, la identificación de defectos y la cobertura de pruebas del sistema Biblioteca Universitaria Inteligente.
 
-- Historias de usuario
-- Checklist de calidad
-- Equivalencia y valores límite
-- Matriz de casos de prueba
-- Matriz de trazabilidad
-- Registro de defectos
-- Análisis de cobertura
+---
 
-## 3. Resultados de trazabilidad
+## 2. Ejemplo de Redacción
 
-## 4. Defectos identificados
+Durante el análisis de la historia de usuario HU-01 se revisó el criterio de aceptación CA-01, relacionado con el registro de libros utilizando ISBN únicos.
 
-## 5. Análisis de cobertura
+Se identificó que el caso de prueba CP-002 permite detectar un incumplimiento del requisito, ya que el sistema acepta ISBN duplicados cuando debería rechazar la operación. Este hallazgo fue registrado como DEF-01 y clasificado con severidad y prioridad alta debido a su impacto sobre la integridad del catálogo.
 
-## 6. Conclusiones
+---
 
-## 7. Recomendaciones
+## 3. Actividad
+
+Completar el informe considerando:
+
+- Resultados de la matriz de trazabilidad.
+- Defectos identificados.
+- Análisis de cobertura realizado.
+- Conclusiones y recomendaciones.
+
+---
+
+## 4. Conclusiones
+
+Completar según los resultados obtenidos.

@@ -1,24 +1,31 @@
 # Análisis de Cobertura
+
 ## Sistema Biblioteca Universitaria Inteligente (BUI)
 
-## 1. Resultado de pruebas
+## Ejemplo
 
-| Métrica | Resultado |
-|---------|-----------|
-| Pruebas ejecutadas |  |
-| Pruebas aprobadas |  |
-| Pruebas fallidas |  |
-| Cobertura obtenida |  |
+### HU-01 – Registrar Libro
 
-## 2. Interpretación
+El criterio de aceptación CA-01 cuenta con los casos de prueba CP-001 y CP-002.
 
-Responder:
+El caso CP-001 valida el registro correcto de un libro con ISBN único, mientras que el caso CP-002 verifica que el sistema rechace ISBN duplicados.
 
-1. ¿La cobertura obtenida garantiza que todos los criterios de aceptación están probados?
-2. ¿Qué métodos tienen menor cobertura?
-3. ¿Qué criterios de aceptación no están suficientemente cubiertos?
-4. ¿Qué pruebas adicionales deberían implementarse?
+Durante el análisis se identificó el defecto DEF-01, evidenciando que existe cobertura de prueba para el criterio, pero el comportamiento implementado no cumple completamente el requisito.
 
-## 3. Conclusión
+---
 
-Completar conclusión del análisis.
+## Actividad
+
+Realizar el análisis de cobertura para cada historia de usuario considerando:
+
+- Criterios de aceptación cubiertos.
+- Casos de prueba asociados.
+- Defectos identificados.
+- Cobertura alcanzada.
+- Cobertura faltante.
+
+---
+
+## Conclusiones
+
+Completar las conclusiones del análisis realizado.
