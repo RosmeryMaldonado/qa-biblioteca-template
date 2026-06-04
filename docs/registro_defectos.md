@@ -21,3 +21,12 @@ El defecto anterior se encuentra asociado a:
 ## Actividad
 
 Identificar, registrar y clasificar los defectos encontrados durante el análisis del sistema.
+
+Para cada defecto indicar:
+
+- Historia de Usuario asociada.
+- Criterio de Aceptación afectado.
+- Caso de Prueba que permitió detectarlo.
+- Severidad.
+- Prioridad.
+- Estado.

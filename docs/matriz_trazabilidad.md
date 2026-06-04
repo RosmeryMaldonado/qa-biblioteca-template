@@ -22,4 +22,12 @@ La fila anterior muestra cómo relacionar:
 
 ## Actividad
 
-Completar la trazabilidad para todas las historias de usuario y criterios de aceptación del sistema.
+Completar la matriz de trazabilidad relacionando:
+
+- Historia de Usuario (HU)
+- Criterio de Aceptación (CA)
+- Caso de Prueba (CP)
+- Método asociado
+- Defecto identificado (si aplica)
+
+para todas las historias de usuario del sistema.

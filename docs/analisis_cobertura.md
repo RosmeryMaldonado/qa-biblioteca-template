@@ -29,3 +29,9 @@ Realizar el análisis de cobertura para cada historia de usuario considerando:
 ## Conclusiones
 
 Completar las conclusiones del análisis realizado.
+
+## Nota
+
+La cobertura debe analizarse desde la perspectiva de los requisitos funcionales y los casos de prueba definidos, no únicamente desde la cobertura de código.
+
+Un alto porcentaje de cobertura de código no garantiza la ausencia de defectos. El análisis debe considerar también el cumplimiento de los criterios de aceptación y la capacidad de los casos de prueba para detectar fallos del sistema.
