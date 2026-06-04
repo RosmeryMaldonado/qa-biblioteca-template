@@ -1,4 +1,19 @@
 hidden_tests/coverage.xml
-.coverage
-.pytest_cache/
+
+# Python
 __pycache__/
+.pytest_cache/
+
+# Coverage
+.coverage
+coverage.xml
+
+# SonarQube
+.scannerwork/
+
+# IDE
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
