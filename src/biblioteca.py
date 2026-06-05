@@ -58,6 +58,21 @@ class Biblioteca:
                 resultados.append(libro)
 
         return resultados
+    
+    def puede_prestar(self, codigo_usuario, isbn):
+        """Valida si un usuario puede solicitar un préstamo."""
+
+    usuario = self.usuarios[codigo_usuario]
+    libro = self.libros[isbn]
+
+    if usuario.bloqueado:
+        return False
+
+    if libro.ejemplares <= 0:
+        return False
+
+    return True
+
 
     def prestar_libro(self, codigo_usuario, isbn):
         """Registra un préstamo."""
